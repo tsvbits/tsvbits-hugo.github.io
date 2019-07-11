@@ -1,0 +1,219 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "",
+    "projects": "",
+    "awards": ""
+  },
+  "basics": {
+    "name": "Sergey Todyshev",
+    "email": "stodyshev@gmail.com",
+    "phone": "+79132017700",
+    "location": {
+      "address": "Russia"
+    },
+    "website": "https://sergeyt.github.io"
+  },
+  "education": [
+    {
+      "institution": "Institute of Automation and Electrometry",
+      "startDate": "Sep 2004",
+      "location": "Novosibirsk, Russia",
+      "studyType": "PhD (incomplete)",
+      "area": "Applied Mathematics",
+      "endDate": "Aug 2007"
+    },
+    {
+      "institution": "Novosibirsk State University",
+      "location": "Novosibirsk, Russia",
+      "studyType": "Computers, Complexes, Systems and Networks",
+      "gpa": "4+",
+      "startDate": "Sep 1999",
+      "endDate": "Jun 2004"
+    }
+  ],
+  "work": [
+    {
+      "website": "",
+      "highlights": [
+        "Development of advanced JavaScript UI components",
+        null
+      ],
+      "company": "GrapeCity, Inc",
+      "position": "Lead Software Engineer",
+      "location": "Remote",
+      "startDate": "Oct 2018",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Leading development of large-scale automation platform with up to 15 engineers",
+        "Direct communication with foreign managers and foreign product customers",
+        "Solving customer incidents on production environment",
+        "Backend/frontend developer with technical leader duties"
+      ],
+      "company": "Xored",
+      "position": "Tech/Team Lead & Full Stack Software Engineer",
+      "location": "Novosibirsk, Russia",
+      "startDate": "Jan 2016",
+      "endDate": "Jun 2018"
+    },
+    {
+      "highlights": [
+        "Leading development of ActiveReports platform",
+        "Developing ActiveReports Server",
+        "Developing binary cross-compiler from .NET to Flash Player byte code"
+      ],
+      "company": "DataWorks",
+      "position": "Full Stack Software Engineer",
+      "location": "Novosibirsk, Russia",
+      "startDate": "Jun 2007",
+      "endDate": "Jan 2016"
+    },
+    {
+      "highlights": [
+        "Developing hardware abstraction layer to control Circle Laser Writing System",
+        "Developing computer-aided tools for interferometry",
+        "Developing computer-aided tools for tomography"
+      ],
+      "company": "Institute of Automation and Electrometry",
+      "position": "Full Stack Software Engineer",
+      "location": "Novosibirsk, Russia",
+      "startDate": "Jan 2002",
+      "endDate": "Aug 2007"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Russian (native)",
+        "English (upper intermediate)"
+      ],
+      "name": "Can read/write/speak"
+    },
+    {
+      "keywords": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "name": "Currently program with"
+    },
+    {
+      "keywords": [
+        "C#",
+        "Java",
+        "Go",
+        "Python"
+      ],
+      "name": "Used to program with"
+    },
+    {
+      "keywords": [
+        "Azure Service Fabric",
+        "ASP.NET",
+        "Java EE (Wildfly)"
+      ],
+      "name": "Backend technologies"
+    },
+    {
+      "keywords": [
+        "React",
+        "Redux",
+        "Immutable.js"
+      ],
+      "name": "Frontend technologies"
+    },
+    {
+      "keywords": [
+        "Linux",
+        "Docker",
+        "Git",
+        "Bash"
+      ],
+      "name": "Miscelanious"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Velocity",
+      "keywords": [
+        "PostgreSQL",
+        "ElasticSearch",
+        "Minio",
+        "Apache Kafka",
+        "Docker",
+        "OpenStack",
+        "Java",
+        "Go",
+        "Python"
+      ],
+      "description": "The complete LaaS solution for orchestration of physical, virtual, and hybrid computer networks",
+      "url": "https://www.spirent.com/products/velocity"
+    },
+    {
+      "keywords": [
+        "Microsoft Visual Studio",
+        "Mercurial",
+        "ASP.NET",
+        "C#"
+      ],
+      "name": "ActiveReports",
+      "description": "The fast, complete .NET reporting solution",
+      "url": "https://www.grapecity.com/activereports"
+    },
+    {
+      "keywords": [
+        "Modbus protocol",
+        "Windows DDK",
+        "C++"
+      ],
+      "name": "CLWS-300",
+      "description": "Software to manage unique circle laser writing system designed by IAE"
+    },
+    {
+      "keywords": [
+        "Microsoft Foundation Classes",
+        "OpenGL",
+        "MatLAB",
+        "C++"
+      ],
+      "name": "voXcat",
+      "description": "Tomography analysis software"
+    },
+    {
+      "keywords": [
+        "Microsoft Foundation Classes",
+        "GDI+",
+        "C++"
+      ],
+      "description": "Visual programming environment like mini LabVIEW implementation",
+      "name": "Diagram Designer"
+    },
+    {
+      "keywords": [
+        "Mono",
+        "C#"
+      ],
+      "name": "PageFX",
+      "description": "A compiler from .NET to Flash byte code to easily craft ActiveReports Flash Viewer"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

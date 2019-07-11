@@ -1,0 +1,159 @@
+\documentclass[a4paper]{article}
+    \usepackage{fullpage}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{textcomp}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[margin=1in]{geometry}
+    \textheight=10in
+    \pagestyle{empty}
+    \raggedright
+
+    %\renewcommand{\encodingdefault}{cg}
+%\renewcommand{\rmdefault}{lgrcmr}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+    \begin{document}
+\vspace*{-40pt}
+
+    
+
+%==== Profile ====%
+\vspace*{-10pt}
+\begin{center}
+	{\Huge \scshape {Sergey Todyshev}}\\
+	Russia $\cdot$ stodyshev@gmail.com $\cdot$ +79132017700 $\cdot$ https://sergeyt.github.io\\
+\end{center}
+
+%==== Education ====%
+\header{Education}
+\textbf{Institute of Automation and Electrometry}\hfill Novosibirsk, Russia\\
+PhD (incomplete) Applied Mathematics \hfill Sep 2004 - Aug 2007\\
+\vspace{2mm}
+\textbf{Novosibirsk State University}\hfill Novosibirsk, Russia\\
+Computers, Complexes, Systems and Networks \textit{GPA: 4+} \hfill Sep 1999 - Jun 2004\\
+\vspace{2mm}
+
+%==== Experience ====%
+\header{Experience}
+\vspace{1mm}
+
+\textbf{GrapeCity, Inc} \hfill Remote\\
+\textit{Lead Software Engineer} \hfill Oct 2018 | Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Development of advanced JavaScript UI components
+\end{itemize}
+\textbf{Xored} \hfill Novosibirsk, Russia\\
+\textit{Tech/Team Lead \& Full Stack Software Engineer} \hfill Jan 2016 | Jun 2018\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Leading development of large-scale automation platform with up to 15 engineers
+	\item Direct communication with foreign managers and foreign product customers
+	\item Solving customer incidents on production environment
+	\item Backend/frontend developer with technical leader duties
+\end{itemize}
+\textbf{DataWorks} \hfill Novosibirsk, Russia\\
+\textit{Full Stack Software Engineer} \hfill Jun 2007 | Jan 2016\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Leading development of ActiveReports platform
+	\item Developing ActiveReports Server
+	\item Developing binary cross-compiler from .NET to Flash Player byte code
+\end{itemize}
+\textbf{Institute of Automation and Electrometry} \hfill Novosibirsk, Russia\\
+\textit{Full Stack Software Engineer} \hfill Jan 2002 | Aug 2007\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Developing hardware abstraction layer to control Circle Laser Writing System
+	\item Developing computer-aided tools for interferometry
+	\item Developing computer-aided tools for tomography
+\end{itemize}
+
+\header{Skills}
+\begin{tabular}{ l l }
+	Can read/write/speak:   & Russian (native), English (upper intermediate)   \\
+	Currently program with: & TypeScript, JavaScript                           \\
+	Used to program with:   & C\#, Java, Go, Python                            \\
+	Backend technologies:   & Azure Service Fabric, ASP.NET, Java EE (Wildfly) \\
+	Frontend technologies:  & React, Redux, Immutable.js                       \\
+	Miscelanious:           & Linux, Docker, Git, Bash                         \\
+\end{tabular}
+\vspace{2mm}
+
+\header{Projects}
+{\textbf{Velocity}} {\sl PostgreSQL, ElasticSearch, Minio, Apache Kafka, Docker, OpenStack, Java, Go, Python} \hfill https://www.spirent.com/products/velocity\\
+The complete LaaS solution for orchestration of physical, virtual, and hybrid computer networks\\
+\vspace*{2mm}
+{\textbf{ActiveReports}} {\sl Microsoft Visual Studio, Mercurial, ASP.NET, C\#} \hfill https://www.grapecity.com/activereports\\
+The fast, complete .NET reporting solution\\
+\vspace*{2mm}
+{\textbf{CLWS-300}} {\sl Modbus protocol, Windows DDK, C++} \\
+Software to manage unique circle laser writing system designed by IAE\\
+\vspace*{2mm}
+{\textbf{voXcat}} {\sl Microsoft Foundation Classes, OpenGL, MatLAB, C++} \\
+Tomography analysis software\\
+\vspace*{2mm}
+{\textbf{Diagram Designer}} {\sl Microsoft Foundation Classes, GDI+, C++} \\
+Visual programming environment like mini LabVIEW implementation\\
+\vspace*{2mm}
+{\textbf{PageFX}} {\sl Mono, C\#} \\
+A compiler from .NET to Flash byte code to easily craft ActiveReports Flash Viewer\\
+\vspace*{2mm}
+
+
+
+\ 
+\end{document}
